@@ -2,18 +2,20 @@ The Natural Language Decathlon is a multitask challenge that spans ten tasks:
 question answering, machine translation, summarization, natural language inference, sentiment analysis, semantic role labeling, zero-shot relation extraction, goal-oriented dialogue, semantic parsing, and commonsense pronoun resolution.
 
 ## Leaderboard
+
 <table>
-<tr><td>|
+<tr><th> Overall </th><th> Task Breakdown</th></tr>
+<tr><td>
 
 | Rank| Model | decaScore |
-| --- | --- | --- | --- | 
+| --- | --- | --- |
 |  1  | [MQAN](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf) | 571.7 | 
 |  2  | [S2S](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf) | 513.6 | 
 
 </td><td>
 
 | SQuAD | IWSLT | CNN/DM | MNLI | SST | QA&#8209;SRL | QA&#8209;ZRE | WOZ | WikiSQL | MWSC |
-| --- | --- | --- | --- | ---- | ---- | --- | --- |--- |
+| --- | --- | --- | --- | ---- | ---- | --- | --- |--- | --- |
 | 74.3 | 13.7 | 24.6 | 69.2 | 86.4 | 77.6 | 34.7 | 84.1 | 58.7 | 48.4 |
 | 47.5 | 14.2 | 25.7 | 60.9 | 85.9 | 68.7 | 28.5 | 84.0 | 45.8 | 52.4 |
 
