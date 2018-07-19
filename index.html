@@ -1,0 +1,317 @@
+<!DOCTYPE html><!--Author: Bryan McCann 2018-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="public/gridism.css">
+  <link rel="stylesheet" href="public/normalize.css">
+  <link rel="stylesheet" href="public/styles.css">
+
+<html>
+<head>
+<meta charset="utf-8"><title>The Natural Language Decathlon</title><meta name="description" content="The Natural Language Decathlon (decaNLP) is a challenge that spans ten tasks: question answering, machine translation, summarization, natural language inference, sentiment analysis, semantic role labeling, zero-shot relation extraction, goal-oriented dialogue, semantic parsing, and commonsense pronoun resolution.">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta property="og:image" content="decanlp_logo.png"><link rel="image_src" type="image/png" href="decanlp_logo.png"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><link rel="icon" href="favicon.ico" type="image/x-icon"><link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/layout.css"><link rel="stylesheet" href="/stylesheets/index.css"><script async defer src="https://buttons.github.io/buttons.js"></script><script src="/javascripts/analytics.js"></script></head><body>
+
+
+  <header>
+    <div class="grid">
+      <div class="unit whole align-center">
+
+        <img src="public/icon.png" alt="decaNLP" width="150" class="icons">
+
+        <h1>Your very own <a href="https://ghost.org">Ghost</a>&nbsp;blog.<br>Hosted&nbsp;on&nbsp;<a href="https://heroku.com">Heroku</a>. <em>For&nbsp;free</em>.</h1>
+
+        <p class="lead">Click the button below to deploy a <a href="https://ghost.org">Ghost</a> blog for free on your <a href="https://heroku.com">Heroku</a>&nbsp;account. You&nbsp;should be up and running in less&nbsp;than&nbsp;two&nbsp;minutes.</p>
+
+        <p class="overlap">
+          <a href="https://heroku.com/deploy?template=https://github.com/cobyism/ghost-on-heroku" class="btn">
+            <img class='emoji' title=':sparkles:' alt=':sparkles:' src='https://assets.github.com/images/icons/emoji/unicode/2728.png' height='20' width='20' align='absmiddle' /> <strong>Deploy Ghost</strong> to Heroku <img class='emoji' title=':sparkles:' alt=':sparkles:' src='https://assets.github.com/images/icons/emoji/unicode/2728.png' height='20' width='20' align='absmiddle' />
+          </a>
+        </p>
+
+      </div>
+    </div>
+  </header>
+
+<div class="cover" id="topCover">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h1 id="appTitle">decaNLP</h1>
+<h2 id="appSubtitle">The Natural Language Decathlon</h2>
+</div></div></div></div>
+
+<div class="cover" id="contentCover">
+<div class="container">
+<div class="row">
+<div class="infoCard">
+<div class="infoBody">
+<div class="infoHeadline">
+<h2>The Natural Language Decathlon</h2>
+<p>
+The Natural Language Decathlon is a multitask challenge that spans ten tasks:
+question answering, machine translation, summarization, natural language inference, sentiment analysis, semantic role labeling, zero-shot relation extraction, goal-oriented dialogue, semantic parsing, and commonsense pronoun resolution.
+Each task is cast as question answering, which makes it possible to use our new Multitask Question Answering Network (MQAN).
+This model jointly learns all tasks in decaNLP without any task-specific modules or parameters in the multitask setting. 
+We have open sourced all of the code we used to download and preprocess datasets as well as train and evaluate models.
+</p>
+<a class="btn actionBtn" href="https://arxiv.org/abs/1806.08730">Paper (McCann et al. '18)</a>
+<a class="btn actionBtn inverseBtn" href="https://github.com/salesforce/decaNLP">Code</a>
+<a class="btn actionBtn inverseBtn" href="https://github.com/salesforce/decaNLP">Blog Post</a>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://decaNLP.com" data-text="The Natural Language Decathlon - A Benchmark for Multitask Learning in NLP" data-size="large" data-hashtags="decaNLP, salesforce">Tweet</a> 
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><!-- Place this tag where you want the button to render. -->
+</div>
+
+<div class="infoCard">
+        <div class="infoBody">
+            <div class="infoHeadline">
+                <h2>Leaderboard</h2>
+            </div>
+
+            <p>The Natural Language Decathlon challenges a single system to perform well across a wide variety of complex natural language tasks.</p>
+
+            <table class="table validationTable">
+            <tr>
+                <th> Model   </th>  
+                <th> decaNLP </th>  
+                <th> SQuAD   </th>  
+                <th> IWSLT   </th>  
+                <th> CNN/DM  </th>  
+                <th> MNLI    </th>  
+                <th> SST     </th>  
+                <th> SRL     </th>   
+                <th> ZRE     </th>   
+                <th> WOZ     </th>
+                <th> WikiSQL </th>
+                <th> MWSC    </th> 
+            </tr>
+            <tr>
+                <th> MQAN  </th>  
+                <th> 571.7 </th>  
+                <th> 74.3  </th>  
+                <th> 13.7  </th>  
+                <th> 24.6  </th>  
+                <th> 69.2  </th>  
+                <th> 86.4  </th>   
+                <th> 77.6  </th>    
+                <th> 34.7  </th>        
+                <th> 84.1  </th> 
+                <th> 58.7  </th>
+                <th> 48.4  </th> 
+            </tr>
+            <tr>
+                <th> S2S   </th>  
+                <th> 513.6 </th>  
+                <th> 47.5  </th>  
+                <th> 14.2  </th>  
+                <th> 25.7  </th>  
+                <th> 60.9  </th>  
+                <th> 85.9  </th>   
+                <th> 68.7  </th>    
+                <th> 28.5  </th>        
+                <th> 84.0  </th>  
+                <th> 45.8  </th> 
+                <th> 52.4  </th>
+            </tr>
+            </table>
+        </div>
+    </div>
+
+<div>
+<div><h2>Open Research Questions</h2></div>
+<div>
+<p>
+decaNLP serves as the perfect intersection of complex research directions in NLP. Below you'll find a subset of the questions Salesforce Research is looking into as future research directions.
+</p>
+</div>
+
+<div><h3>Multilingual decaNLP</h3></div>
+<div>
+<p>
+Can we create a model that performs well across all of decaNLP in multiple languages?
+This might start out by simply adding additional machine translation pairs to decaNLP, 
+but eveneutally we would like a system that can perform all ten tasks in aas many languages as possible.
+Ideally, this would not require running an NMT system first before running a question answering system.
+A truly multilingual model would be able to capitalize on its understanding of many languages to perform tasks in multiple language despite having only trained on that task in a single language.
+</p>
+</div>
+
+<div><h3>Scaling decaNLP</h3></div>
+<div>
+<p>
+Efficient training, scaling to larger datasets, larger models.
+</p>
+</div>
+
+<div><h3>Robustness to paraphrasing</h3></div>
+<div>
+<p>
+In the original formulation of decaNLP as question answering, some tasks used fixed questions like 'What is the summary?'. 
+Ideally, a single model for NLP would also be robust to semantically equivalent questions:
+'What is the summarization?',
+'Can you summarize the text for me?',
+'What are the most important points to remember?'.
+Our first approach was robust to minor variations in the kinds of questions that could be asked,
+but we found this robustness lacking.
+
+</p>
+</div>
+
+<div><h3>Analysis of multitask representations compared with single task representations</h3></div>
+<div>
+<p>
+The original decaNLP paper focuses on showing the potential of learning many complex tasks in a single model,
+and experiments demonstrated that models trained on decaNLP were better at learning new tasks.
+How does multitask learning change the kinds of representations the model learns internally?
+</p>
+</div>
+
+<div><h3>Augmenting decaNLP with additional tasks</h3></div>
+<div>
+<p>
+There are a large number of NLP tasks and datasets that are not included in decaNLP.
+Which tasks and datasets would be most helpful to include alongside decaNLP in training a general NLP model?
+</p>
+</div>
+
+<div><h3>Continual Learning in decaNLP</h3></div>
+<div>
+<p>
+In the original decaNLP paper, all tasks were trained together, but decaNLP can also be used to explore continual learning and transfer learning.
+How important is the order of tasks learned in a continual learning setting? 
+Multitask learning mitigates the effects of catastrophic forgetting, but in a continual learning setting this again becomes an issue.
+</p>
+</div>
+
+<div><h3>Analysis of relatedness between tasks</h3></div>
+<div>
+<p>
+Which tasks are most related? Which tasks hurt/help other tasks? Is there any way to measure this kind of relatedness by looking at the internals of the model itself,
+or is this kind of analysis restricted to empirical observation through transfer learning?
+</p>
+</div>
+
+<div><h3>Zero-shot and Domain Adaptation</h3></div>
+<div>
+<p>
+How can decaNLP be adapated to enhance a model's ability to adapt to new tasks or perform them without any fine-tuning?
+</p>
+</div>
+
+<div><h3>Architecture Search for decaNLP</h3></div>
+<div>
+<p>
+Does the multitask setting provided by decaNLP provide a unique opportunity for architecture search to find general models?
+</p>
+</div>
+
+
+<div><h3>Work with us</h3></div>
+<div>
+<p>
+If you find any of these ideas or others related to decaNLP interesting,
+feel free to reach out to <a href="mailto:bmccann@salesforce.com">bmccann@salesforce.com</a> and <a href="mailto:nkeskar@salesforce.com">nkeskar@salesforce.com</a>
+to discuss or collaborate closely.
+We are hiring for full time research scientists, research engineers, and research interns: see our <a href="https://einstein.ai/careers">careers</a> page for more information.
+</div>
+
+</div>
+
+<div><h2>FAQ</h2></div>
+
+<div><h3>Do I have to use your code?</h3></div>
+<div>
+<p>
+We have released all the code necessary to reproduce the main experiments from the paper.
+We hope that this is useful to the community of researchers that choose to work on decaNLP, 
+but it is not necessary to use our code base.
+Feel free to use it as little or as much as possible.
+</p>
+</div>
+
+<div><h3>Do I have to treat everything as question answering?</h3></div>
+<div>
+<p>
+We chose to treat everything as question anwering in our approach to decaNLP.
+This choice comes with a set of tradeoffs,
+but it can be considered independent of decaNLP itself.
+We encourage exploration of alternative paradigms that allow training a single system on decaNLP,
+e.g. language modeling or dialogue.
+Our thought process suggested that dialogue could be considered an iterative question answering process,
+and in early experiments language modeling did not seem as promising as quesiton asnwering.
+</p>
+</div>
+
+<div><h3>What exactly do you mean by a single system?</h3></div>
+<div>
+<p>
+In our work, we use what we consider to be a fully unified model with all parameters trained on all tasks jointly.
+There is no task-specific modularization or parameters in our model, 
+which allows the model to seamlessly attempt new tasks and learn relationships between tasks through natural language descriptions.
+Single systems do not have to be unified to that degree, 
+but they should not contain any explicit code that changes the behavior of the model based on the task.
+Any kind of switching or conditional behavior should be learned.
+For example, one could imagine a system of eleven submodels, ten of them are each a state-of-the-art model for a corresponding task in decaNLP,
+and the eleventh is a classification network that learns to predict the task and routes examples to one of the other ten submodels for processing.
+With the classificaiton network, this qualifies as a single system, but manually routing tasks based on an unlearned task id is not.
+</p>
+</div>
+
+<div><h3>Are there any restrictions on data?</h3></div>
+<div>
+<p>
+Use as much data from outside sources as you would like as long as that data does not explicitly include supervision on the test sets of each decaNLP task.
+For example, it is fair game to augment decaNLP with extra machine translation data from WMT.
+</p>
+</div>
+
+<div><h3>Why did you not include task/dataset X?</h3></div>
+<div>
+<p>
+NLP has been decomposed into many different kinds of tasks, and each one often has many different representative datasets.
+For decaNLP, we chose ten tasks and corresponding datasets that capture a broad variety of desired behavior for general NLP models,
+but if you have suggestions for additional tasks, please feel free to reach out to us at <a href="mailto:bmccann@salesforce.com">bmccann@salesforce.com</a> and <a href="mailto:nkeskar@salesforce.com">nkeskar@salesforce.com</a>.
+We want to get as much feedback from the community as possible to inform the inevitable decaNLP 2.0, 
+and we strongly encourage your involvement in our future work on multitask learning for NLP.
+</p>
+</div>
+
+<div><h3>Where should I ask questions about the code?</h3></div>
+<div>
+<p>
+github.com/salesforce/decaNLP
+</p>
+</div>
+
+<div><h3>How do I evaluate on decaNLP?</h3></div>
+<div>
+<p>
+Training and validation can all be completed using our code at github.com/salesforce/decaNLP,
+but testing is more involved because decaNLP contains SQuAD 1.0 and MultiNLI as tasks, 
+both of which have private, held-out test sets.
+For those two tasks, inference on the test sets must be obtained through their systems, which will provide testing metrics.
+Additionally, for WikiSQL, inference on the test set can be performed in the decaNLP code, 
+but the official evaluation system at github.com/salesforce/WikiSQL should be used for the testing metric.
+</p>
+</div>
+
+<div><h3>How can I work more closely with Salesforce Research on decaNLP?</h3></div>
+<div>
+<p>
+We are hiring for full time research scientists, research engineers, and research interns.
+Please reach out to <a href="mailto:bmccann@salesforce.com">bmccann@salesforce.com</a> and <a href="mailto:nkeskar@salesforce.com">nkeskar@salesforce.com</a> or see our <a href="https://einstein.ai/careers">careers</a> page for more information.
+
+</p>
+</div>
+</div>
+
+</body>
+</html>
+
+
