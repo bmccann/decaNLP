@@ -8,8 +8,17 @@ question answering, machine translation, summarization, natural language inferen
 <tr><td>
 
 <table>
-<tr><th>Rank</th><th>Model  &nbsp; &nbsp; &nbsp;</th><th>decaScore</th></tr>
-<tr><td>1</td><td>MQAN<br>Salesforce Research<br><a href="https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf">(McCann et al. 2018)</a></td><td>571.7</td></tr>
+<tr><th>Rank</th><th>Model</th><th>decaScore</th></tr>
+
+<tr>
+<td>1</td>
+<td>MQAN
+Salesforce Research
+<a href="https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf">(McCann et al. 2018)</a>
+</td>
+<td>571.7</td>
+</tr>
+
 <tr><td>2</td><td>S2S<br>Salesforce Research<br><a href="https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf">(McCann et al. 2018)</a></td><td>513.6</td></tr>
 </table>
 
@@ -17,7 +26,9 @@ question answering, machine translation, summarization, natural language inferen
 
 <table>
 <tr><th>SQuAD </th><th> IWSLT </th><th> CNN/DM </th><th> MNLI </th><th> SST </th><th> QA&#8209;SRL </th><th> QA&#8209;ZRE </th><th> WOZ </th><th> WikiSQL </th><th> MWSC </th></tr>
+
 <tr><td>74.3 </td><td> 13.7 </td><td> 24.6 </td><td> 69.2 </td><td> 86.4 </td><td> 77.6 </td><td> 34.7 </td><td> 84.1 </td><td> 58.7 </td><td> 48.4 </td></tr>
+
 <tr><td>47.5 </td><td> 14.2 </td><td> 25.7 </td><td> 60.9 </td><td> 85.9 </td><td> 68.7 </td><td> 28.5 </td><td> 84.0 </td><td> 45.8 </td><td> 52.4 </td></tr>
 </table>
 
