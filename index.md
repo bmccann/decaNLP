@@ -1,13 +1,5 @@
-![decaNLP Logo](decaNLP_logo.png)
---------------------------------------------------------------------------------
-[![Build Status](https://travis-ci.org/salesforce/decaNLP.svg?branch=master)](https://travis-ci.org/salesforce/decaNLP)
-
 The Natural Language Decathlon is a multitask challenge that spans ten tasks:
 question answering, machine translation, summarization, natural language inference, sentiment analysis, semantic role labeling, zero-shot relation extraction, goal-oriented dialogue, semantic parsing, and commonsense pronoun resolution.
-Each task is cast as question answering, which makes it possible to use our new Multitask Question Answering Network (MQAN).
-This model jointly learns all tasks in decaNLP without any task-specific modules or parameters in the multitask setting. For a more thorough introduction to decaNLP, see our [blog post](https://einstein.ai/research/the-natural-language-decathlon) or [paper](https://arxiv.org/abs/1806.08730).
-
-
 
 ## Leaderboard
 
