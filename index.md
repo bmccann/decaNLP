@@ -11,15 +11,30 @@ question answering, machine translation, summarization, natural language inferen
 <tr><th>Rank</th><th>Model</th><th>decaScore</th></tr>
 
 <tr>
-<td>1</td>
+<td>1
+
+
+</td>
 <td>MQAN
 Salesforce Research
 <a href="https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf">(McCann et al. 2018)</a>
 </td>
-<td>571.7</td>
+<td>571.7
+
+
+</td>
 </tr>
 
-<tr><td>2</td><td>S2S<br>Salesforce Research<br><a href="https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf">(McCann et al. 2018)</a></td><td>513.6</td></tr>
+<tr><td>2
+
+
+</td><td>S2S
+Salesforce Research
+<a href="https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf">(McCann et al. 2018)</a></td>
+<td>513.6
+
+
+</td></tr>
 </table>
 
 </td><td>
