@@ -3,14 +3,20 @@ question answering, machine translation, summarization, natural language inferen
 
 ## Leaderboard
 
-
 -------------------------------------------------------------
- Rank   Model      decaScore
-______ _______ _____________
-  1     MQAN           571.7
+ Centered   Default           Right Left
+  Header    Aligned         Aligned Aligned
+----------- ------- --------------- -------------------------
+   First    row                12.0 Example of a row that
+                                    spans multiple lines.
 
-  2     S2S           513.6
+  Second    row                 5.0 Here's another one. Note
+                                    the blank line between
+                                    rows.
 -------------------------------------------------------------
+
+Table: Here's the caption. It, too, may span
+multiple lines.
 
 ## Getting Started
 
