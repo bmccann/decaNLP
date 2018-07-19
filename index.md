@@ -12,50 +12,51 @@ This model jointly learns all tasks in decaNLP without any task-specific modules
 
 
 ## Leaderboard
-            <table class="table validationTable">
-            <tr>
-                <th> Model   </th>  
-                <th> decaNLP </th>  
-                <th> SQuAD   </th>  
-                <th> IWSLT   </th>  
-                <th> CNN/DM  </th>  
-                <th> MNLI    </th>  
-                <th> SST     </th>  
-                <th> SRL     </th>   
-                <th> ZRE     </th>   
-                <th> WOZ     </th>
-                <th> WikiSQL </th>
-                <th> MWSC    </th> 
-            </tr>
-            <tr>
-                <th> MQAN  </th>  
-                <th> 571.7 </th>  
-                <th> 74.3  </th>  
-                <th> 13.7  </th>  
-                <th> 24.6  </th>  
-                <th> 69.2  </th>  
-                <th> 86.4  </th>   
-                <th> 77.6  </th>    
-                <th> 34.7  </th>        
-                <th> 84.1  </th> 
-                <th> 58.7  </th>
-                <th> 48.4  </th> 
-            </tr>
-            <tr>
-                <th> S2S   </th>  
-                <th> 513.6 </th>  
-                <th> 47.5  </th>  
-                <th> 14.2  </th>  
-                <th> 25.7  </th>  
-                <th> 60.9  </th>  
-                <th> 85.9  </th>   
-                <th> 68.7  </th>    
-                <th> 28.5  </th>        
-                <th> 84.0  </th>  
-                <th> 45.8  </th> 
-                <th> 52.4  </th>
-            </tr>
-            </table>
+
+<table class="table validationTable">
+<tr>
+    <th> Model   </th>  
+    <th> decaNLP </th>  
+    <th> SQuAD   </th>  
+    <th> IWSLT   </th>  
+    <th> CNN/DM  </th>  
+    <th> MNLI    </th>  
+    <th> SST     </th>  
+    <th> SRL     </th>   
+    <th> ZRE     </th>   
+    <th> WOZ     </th>
+    <th> WikiSQL </th>
+    <th> MWSC    </th> 
+</tr>
+<tr>
+    <th> MQAN  </th>  
+    <th> 571.7 </th>  
+    <th> 74.3  </th>  
+    <th> 13.7  </th>  
+    <th> 24.6  </th>  
+    <th> 69.2  </th>  
+    <th> 86.4  </th>   
+    <th> 77.6  </th>    
+    <th> 34.7  </th>        
+    <th> 84.1  </th> 
+    <th> 58.7  </th>
+    <th> 48.4  </th> 
+</tr>
+<tr>
+    <th> S2S   </th>  
+    <th> 513.6 </th>  
+    <th> 47.5  </th>  
+    <th> 14.2  </th>  
+    <th> 25.7  </th>  
+    <th> 60.9  </th>  
+    <th> 85.9  </th>   
+    <th> 68.7  </th>    
+    <th> 28.5  </th>        
+    <th> 84.0  </th>  
+    <th> 45.8  </th> 
+    <th> 52.4  </th>
+</tr>
+</table>
 
 
 ## Getting Started
