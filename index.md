@@ -19,26 +19,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta property="og:image" content="decanlp_logo.png"><link rel="image_src" type="image/png" href="decanlp_logo.png"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><link rel="icon" href="favicon.ico" type="image/x-icon"><link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/layout.css"><link rel="stylesheet" href="/stylesheets/index.css"><script async defer src="https://buttons.github.io/buttons.js"></script><script src="/javascripts/analytics.js"></script></head><body>
 
 
-  <header>
-    <div class="grid">
-      <div class="unit whole align-center">
-
-        <img src="public/icon.png" alt="decaNLP" width="150" class="icons">
-
-        <h1>Your very own <a href="https://ghost.org">Ghost</a>&nbsp;blog.<br>Hosted&nbsp;on&nbsp;<a href="https://heroku.com">Heroku</a>. <em>For&nbsp;free</em>.</h1>
-
-        <p class="lead">Click the button below to deploy a <a href="https://ghost.org">Ghost</a> blog for free on your <a href="https://heroku.com">Heroku</a>&nbsp;account. You&nbsp;should be up and running in less&nbsp;than&nbsp;two&nbsp;minutes.</p>
-
-        <p class="overlap">
-          <a href="https://heroku.com/deploy?template=https://github.com/cobyism/ghost-on-heroku" class="btn">
-            <img class='emoji' title=':sparkles:' alt=':sparkles:' src='https://assets.github.com/images/icons/emoji/unicode/2728.png' height='20' width='20' align='absmiddle' /> <strong>Deploy Ghost</strong> to Heroku <img class='emoji' title=':sparkles:' alt=':sparkles:' src='https://assets.github.com/images/icons/emoji/unicode/2728.png' height='20' width='20' align='absmiddle' />
-          </a>
-        </p>
-
-      </div>
-    </div>
-  </header>
-
 <div class="cover" id="topCover">
 <div class="container">
 <div class="row">
