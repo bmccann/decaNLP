@@ -4,22 +4,21 @@ question answering, machine translation, summarization, natural language inferen
 ## Leaderboard
 
 <table>
-<tr><th> Overall </th><th> Task Breakdown</th></tr>
+<tr><th> Overall </th><th>Breakdown by Task</th></tr>
 <tr><td>
 
 <table>
-<tr><th>Rank</th><th>Mode</th><th>decaScore</th></tr>
-<tr><th>1</th><th>[MQAN](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf)</th><th>571.7</th></tr>
-<tr><th>2</th><th>[S2S](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf)</th><th>513.6</th></tr>
+<tr><th>Rank</th><th>Model</th><th>decaScore</th></tr>
+<tr><td>1</td><td>MQAN<br>Salesforce Research<br><a href="https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf">(McCann et al. 2018)</a></td><td>571.7</td></tr>
+<tr><td>2</td><td>S2S<br>Salesforce Research<br><a href="https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf">(McCann et al. 2018)</a></td><td>513.6</td></tr>
 </table>
 
 </td><td>
 
 <table>
-| SQuAD | IWSLT | CNN/DM | MNLI | SST | QA&#8209;SRL | QA&#8209;ZRE | WOZ | WikiSQL | MWSC |
-| --- | --- | --- | --- | ---- | ---- | --- | --- |--- | --- |
-| 74.3 | 13.7 | 24.6 | 69.2 | 86.4 | 77.6 | 34.7 | 84.1 | 58.7 | 48.4 |
-| 47.5 | 14.2 | 25.7 | 60.9 | 85.9 | 68.7 | 28.5 | 84.0 | 45.8 | 52.4 |
+<tr><th>SQuAD </th><th> IWSLT </th><th> CNN/DM </th><th> MNLI </th><th> SST </th><th> QA&#8209;SRL </th><th> QA&#8209;ZRE </th><th> WOZ </th><th> WikiSQL </th><th> MWSC </th></tr>
+<tr><td>74.3 </td><td> 13.7 </td><td> 24.6 </td><td> 69.2 </td><td> 86.4 </td><td> 77.6 </td><td> 34.7 </td><td> 84.1 </td><td> 58.7 </td><td> 48.4 </td></tr>
+<tr><td>47.5 </td><td> 14.2 </td><td> 25.7 </td><td> 60.9 </td><td> 85.9 </td><td> 68.7 </td><td> 28.5 </td><td> 84.0 </td><td> 45.8 </td><td> 52.4 </td></tr>
 </table>
 
 </td></tr> </table>
