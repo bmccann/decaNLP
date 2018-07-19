@@ -4,36 +4,23 @@ question answering, machine translation, summarization, natural language inferen
 ## Leaderboard
 
 <table>
-<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
-<tr><td>
-
-|Table 1| Middle | Table 2|
-|--|--|--|
-|a| not b|and c |
-
-</td><td>
-
-|b|1|2|3| 
-|--|--|--|--|
-|a|s|d|f|
-
-</td></tr> </table>
-
-<table>
 <tr><th> Overall </th><th> Task Breakdown</th></tr>
 <tr><td>
 
-| Rank| Model | decaScore |
-| --- | --- | --- |
-|  1  | [MQAN](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf) | 571.7 | 
-|  2  | [S2S](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf) | 513.6 | 
+<table>
+<tr><th>Rank</th><th>Mode</th><th>decaScore</th></tr>
+<tr><th>1</th><th>[MQAN](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf)</th><th>571.7</th></tr>
+<tr><th>2</th><th>[S2S](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf)</th><th>513.6</th></tr>
+</table>
 
 </td><td>
 
+<table>
 | SQuAD | IWSLT | CNN/DM | MNLI | SST | QA&#8209;SRL | QA&#8209;ZRE | WOZ | WikiSQL | MWSC |
 | --- | --- | --- | --- | ---- | ---- | --- | --- |--- | --- |
 | 74.3 | 13.7 | 24.6 | 69.2 | 86.4 | 77.6 | 34.7 | 84.1 | 58.7 | 48.4 |
 | 47.5 | 14.2 | 25.7 | 60.9 | 85.9 | 68.7 | 28.5 | 84.0 | 45.8 | 52.4 |
+</table>
 
 </td></tr> </table>
 
