@@ -7,8 +7,6 @@ question answering, machine translation, summarization, natural language inferen
 Each task is cast as question answering, which makes it possible to use our new Multitask Question Answering Network (MQAN).
 This model jointly learns all tasks in decaNLP without any task-specific modules or parameters in the multitask setting. For a more thorough introduction to decaNLP, see our [blog post](https://einstein.ai/research/the-natural-language-decathlon) or [paper](https://arxiv.org/abs/1806.08730).
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://decaNLP.com" data-text="The Natural Language Decathlon - A Benchmark for Multitask Learning in NLP" data-size="large" data-hashtags="decaNLP, salesforce">Tweet</a> 
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><!-- Place this tag where you want the button to render. -->
 
 
 ## Leaderboard
