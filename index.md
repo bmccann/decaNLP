@@ -3,7 +3,7 @@ question answering, machine translation, summarization, natural language inferen
 
 ## Leaderboard
 
-<table class="table validationTable">
+<table>
 <tr>
     <th> Rank    </th>
     <th> Model   </th>  
@@ -21,36 +21,36 @@ question answering, machine translation, summarization, natural language inferen
     <th> MWSC    </th> 
 </tr>
 <tr>
-    <th> 1     </th>
-    <th> MQAN <br> Salesforce Research <br> <a href="https://arxiv.org/abs/1806.08730">McCann et al. 2018</a> </th>
-    <th> 571.7 </th>  
+    <td> 1     </td>
+    <td> MQAN <br> Salesforce Research <br> <a href="https://arxiv.org/abs/1806.08730">McCann et al. 2018</a> </td>
+    <td> 571.7 </td>  
 
-    <th> 74.3  </th>  
-    <th> 13.7  </th>  
-    <th> 24.6  </th>  
-    <th> 69.2  </th>  
-    <th> 86.4  </th>   
-    <th> 77.6  </th>    
-    <th> 34.7  </th>        
-    <th> 84.1  </th> 
-    <th> 58.7  </th>
-    <th> 48.4  </th> 
+    <td> 74.3  </td>  
+    <td> 13.7  </td>  
+    <td> 24.6  </td>  
+    <td> 69.2  </td>  
+    <td> 86.4  </td>   
+    <td> 77.6  </td>    
+    <td> 34.7  </td>        
+    <td> 84.1  </td> 
+    <td> 58.7  </td>
+    <td> 48.4  </td> 
 </tr>
 <tr>
-    <th> 2     </th>
-    <th> S2S <br> Salesforce Research <br> <a href="https://arxiv.org/abs/1806.08730" >McCann et al. 2018</a> </th>
-    <th> 513.6 </th>  
+    <td> 2     </td>
+    <td> S2S <br> Salesforce Research <br> <a href="https://arxiv.org/abs/1806.08730" >McCann et al. 2018</a> </td>
+    <td> 513.6 </td>  
 
-    <th> 47.5  </th>  
-    <th> 14.2  </th>  
-    <th> 25.7  </th>  
-    <th> 60.9  </th>  
-    <th> 85.9  </th>   
-    <th> 68.7  </th>    
-    <th> 28.5  </th>        
-    <th> 84.0  </th>  
-    <th> 45.8  </th> 
-    <th> 52.4  </th>
+    <td> 47.5  </td>  
+    <td> 14.2  </td>  
+    <td> 25.7  </td>  
+    <td> 60.9  </td>  
+    <td> 85.9  </td>   
+    <td> 68.7  </td>    
+    <td> 28.5  </td>        
+    <td> 84.0  </td>  
+    <td> 45.8  </td> 
+    <td> 52.4  </td>
 </tr>
 </table>
 
