@@ -5,6 +5,7 @@ question answering, machine translation, summarization, natural language inferen
 
 <table class="table validationTable">
 <tr>
+    <th> Rank    </th>
     <th> Model   </th>  
     <th> decaNLP </th>  
     <th> SQuAD   </th>  
@@ -19,7 +20,8 @@ question answering, machine translation, summarization, natural language inferen
     <th> MWSC    </th> 
 </tr>
 <tr>
-    <th> MQAN  </th>  
+    <th> 1     </th>
+    <th> MQAN <br> Salesforce Research <br> <a href="https://arxiv.org/abs/1806.08730" class="btn">McCann et al. 2018</a> </th>
     <th> 571.7 </th>  
     <th> 74.3  </th>  
     <th> 13.7  </th>  
@@ -33,7 +35,8 @@ question answering, machine translation, summarization, natural language inferen
     <th> 48.4  </th> 
 </tr>
 <tr>
-    <th> S2S   </th>  
+    <th> 2     </th>
+    <th> S2S <br> Salesforce Research <br> <a href="https://arxiv.org/abs/1806.08730" class="btn">McCann et al. 2018</a> </th>
     <th> 513.6 </th>  
     <th> 47.5  </th>  
     <th> 14.2  </th>  
