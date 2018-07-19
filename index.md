@@ -2,57 +2,22 @@ The Natural Language Decathlon is a multitask challenge that spans ten tasks:
 question answering, machine translation, summarization, natural language inference, sentiment analysis, semantic role labeling, zero-shot relation extraction, goal-oriented dialogue, semantic parsing, and commonsense pronoun resolution.
 
 ## Leaderboard
-
 <table>
-<tr>
-    <th> Rank    </th>
-    <th> Model   </th>  
-    <th> decaNLP </th>  
+<tr><td>|
 
-    <th> SQuAD   </th>  
-    <th> IWSLT   </th>  
-    <th> CNN/DM  </th>  
-    <th> MNLI    </th>  
-    <th> SST     </th>  
-    <th> SRL     </th>   
-    <th> ZRE     </th>   
-    <th> WOZ     </th>
-    <th> WikiSQL </th>
-    <th> MWSC    </th> 
-</tr>
-<tr>
-    <td> 1     </td>
-    <td> MQAN <br> Salesforce Research <br> <a href="https://arxiv.org/abs/1806.08730">McCann et al. 2018</a> </td>
-    <td> 571.7 </td>  
+| Rank| Model | decaScore |
+| --- | --- | --- | --- | 
+|  1  | [MQAN](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf) | 571.7 | 
+|  2  | [S2S](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf) | 513.6 | 
 
-    <td> 74.3  </td>  
-    <td> 13.7  </td>  
-    <td> 24.6  </td>  
-    <td> 69.2  </td>  
-    <td> 86.4  </td>   
-    <td> 77.6  </td>    
-    <td> 34.7  </td>        
-    <td> 84.1  </td> 
-    <td> 58.7  </td>
-    <td> 48.4  </td> 
-</tr>
-<tr>
-    <td> 2     </td>
-    <td> S2S <br> Salesforce Research <br> <a href="https://arxiv.org/abs/1806.08730" >McCann et al. 2018</a> </td>
-    <td> 513.6 </td>  
+</td><td>
 
-    <td> 47.5  </td>  
-    <td> 14.2  </td>  
-    <td> 25.7  </td>  
-    <td> 60.9  </td>  
-    <td> 85.9  </td>   
-    <td> 68.7  </td>    
-    <td> 28.5  </td>        
-    <td> 84.0  </td>  
-    <td> 45.8  </td> 
-    <td> 52.4  </td>
-</tr>
-</table>
+| SQuAD | IWSLT | CNN/DM | MNLI | SST | QA&#8209;SRL | QA&#8209;ZRE | WOZ | WikiSQL | MWSC |
+| --- | --- | --- | --- | ---- | ---- | --- | --- |--- |
+| 74.3 | 13.7 | 24.6 | 69.2 | 86.4 | 77.6 | 34.7 | 84.1 | 58.7 | 48.4 |
+| 47.5 | 14.2 | 25.7 | 60.9 | 85.9 | 68.7 | 28.5 | 84.0 | 45.8 | 52.4 |
+
+</td></tr> </table>
 
 
 ## Getting Started
