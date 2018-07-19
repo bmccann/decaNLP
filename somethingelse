@@ -44,8 +44,6 @@ We have open sourced all of the code we used to download and preprocess datasets
 <a class="btn actionBtn" href="https://arxiv.org/abs/1806.08730">Paper (McCann et al. '18)</a>
 <a class="btn actionBtn inverseBtn" href="https://github.com/salesforce/decaNLP">Code</a>
 <a class="btn actionBtn inverseBtn" href="https://github.com/salesforce/decaNLP">Blog Post</a>
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://decaNLP.com" data-text="The Natural Language Decathlon - A Benchmark for Multitask Learning in NLP" data-size="large" data-hashtags="decaNLP, salesforce">Tweet</a> 
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><!-- Place this tag where you want the button to render. -->
 </div>
 
 <div class="infoCard">
