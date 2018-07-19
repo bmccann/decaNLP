@@ -7,7 +7,7 @@ question answering, machine translation, summarization, natural language inferen
 <tr><th> Overall </th><th>Breakdown by Task</th></tr>
 <tr><td>
 
-<table>
+-------------------------------------------------------------
 <tr><th>Rank</th><th>Model</th><th>decaScore</th></tr>
 
 <tr>
@@ -35,7 +35,7 @@ Salesforce Research
 
 
 </td></tr>
-</table>
+-------------------------------------------------------------
 
 </td><td>
 
