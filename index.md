@@ -163,6 +163,7 @@ We are also hiring for full time research scientists, research engineers, and re
 For see our <a href="https://einstein.ai/careers">careers</a> page for more information.
 
 # Citation
+<hr>
 If you use this in your work, please cite [*The Natural Language Decathlon: Multitask Learning as Question Answering*](https://arxiv.org/abs/1806.08730).
 
 ```
@@ -175,5 +176,6 @@ If you use this in your work, please cite [*The Natural Language Decathlon: Mult
 ```
 
 # Contact
+<hr>
 
 Contact:[Bryan McCann](https://bmccann.github.io/) ([bmccann@salesforce.com](mailto:bmccann@salesforce.com)) and [Nitish Shirish Keskar](https://keskarnitish.github.io/) ([nkeskar@salesforce.com](mailto:nkeskar@salesforce.com))
