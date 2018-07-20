@@ -7,7 +7,7 @@
 
 <tr>
 <td><p>1</p><span class="date label label-default">May 18, 2018</span></td>
-<td style="word-break:break-word;">MQAN <p class="institution">Salesforce Research</p> </td>
+<td>MQAN <p class="institution">Salesforce Research</p> </td>
 <td>571.7</td>
 <td>
 <table>
