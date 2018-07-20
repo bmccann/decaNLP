@@ -17,6 +17,7 @@
 </tr>
 </table>
 
+<hr>
 
 # Tasks
 The Natural Language Decathlon is a multitask challenge that spans ten tasks:
