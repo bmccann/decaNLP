@@ -11,11 +11,11 @@
 <td><b>571.7</b></td>
 <td>
 <table>
-<tr><th>SQuAD</th><td>74.3</td><th>QA-SRL</th><td>77.6</td></tr>
-<tr><th>IWSLT</th><td>13.7</td><th>QA-ZRE</th><td>34.7</td></tr>
-<tr><th>CNN/DM</th><td>24.6</td><th>WOZ</th><td>84.1</td></tr>
-<tr><th>MNLI</th><td>69.2</td><th>WikiSQL</td><th>58.7</td></tr>
-<tr><th>SST</th><td>86.4</td><th>MWSC</th><td>48.4</td></tr>
+<tr><th>SQuAD </th><td>74.3</td><th>QA-SRL </th><td>77.6</td></tr>
+<tr><th>IWSLT </th><td>13.7</td><th>QA-ZRE </th><td>34.7</td></tr>
+<tr><th>CNN/DM</th><td>24.6</td><th>WOZ    </th><td>84.1</td></tr>
+<tr><th>MNLI  </th><td>69.2</td><th>WikiSQL</th><td>58.7</td></tr>
+<tr><th>SST   </th><td>86.4</td><th>MWSC   </th><td>48.4</td></tr>
 </table>
 </td>
 </tr>
@@ -26,11 +26,11 @@
 <td><b>513.6</b></td>
 <td>
 <table>
-<tr><th>SQuAD</th><td>47.5</td><th>QA-SRL</th><td>68.7</td></tr>
-<tr><th>IWSLT</th><td>14.2</td><th>QA-ZRE</th><td>28.5</td></tr>
-<tr><th>CNN/DM</th><td>25.7</td><th>WOZ</th><td>84.0</td></tr>
-<tr><th>MNLI</th><td>60.9</td><th>WikiSQL</th><td>45.8</td></tr>
-<tr><th>SST</th><td>85.9</td><th>MWSC</th><td>52.4</td></tr>
+<tr><th>SQuAD </th><td>47.5</td><th>QA-SRL </th><td>68.7</td></tr>
+<tr><th>IWSLT </th><td>14.2</td><th>QA-ZRE </th><td>28.5</td></tr>
+<tr><th>CNN/DM</th><td>25.7</td><th>WOZ    </th><td>84.0</td></tr>
+<tr><th>MNLI  </th><td>60.9</td><th>WikiSQL</th><td>45.8</td></tr>
+<tr><th>SST   </th><td>85.9</td><th>MWSC   </th><td>52.4</td></tr>
 </table>
 </td>
 </tr>
