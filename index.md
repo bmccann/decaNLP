@@ -148,7 +148,7 @@ Does the multitask setting provided by decaNLP provide a unique opportunity for 
 ### Multilingual decaNLP
 Can we create a model that performs well across all of decaNLP in multiple languages?
 This might start out by simply adding additional machine translation pairs to decaNLP, 
-but eveneutally we would like a system that can perform all ten tasks in aas many languages as possible.
+but eventually we would like a system that can perform all ten tasks in as many languages as possible.
 Ideally, this would not require running an NMT system first before running a question answering system.
 A truly multilingual model would be able to capitalize on its understanding of many languages to perform tasks in multiple language despite having only trained on that task in a single language.
 
