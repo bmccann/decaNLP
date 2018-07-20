@@ -4,8 +4,7 @@
 <tr>
 <th>Rank</th>
 <th>Model</th>
-<th>EM</th>
-<th>F1</th>
+<th>decaScore</th>
 </tr>
 <tr class="human-row">
 <td>
@@ -14,8 +13,27 @@
 <p class="institution">Stanford University</p>
 <a href="http://arxiv.org/abs/1606.05250">(Rajpurkar & Jia et al. '18)</a>
 </td>
-<td>86.831</td>
-<td>89.452</td>
+<td>86.831<br>
+<table>
+<tr>
+<th>
+SQuAD
+</th>
+<th>
+IWSLT
+</th>
+</tr>
+<tr>
+<td>
+123
+</td>
+<td>
+123
+</td>
+</tr>
+
+</table>
+</td>
 </tr>
 <tr>
 <td> 
@@ -29,7 +47,6 @@
 <b>68.438</b>
 </td>
 <td>
-<b>71.282</b>
 </td>
 </tr>
 <tr>
@@ -41,7 +58,6 @@
 <p class="institution">Kangwon National University, Natural Language Processing Lab.</p>
 </td>
 <td>68.224</td>
-<td>70.871</td>
 </tr>
 </table>
 
