@@ -6,14 +6,17 @@
 <th>Model</th>
 <th>decaScore</th>
 </tr>
-<tr class="human-row">
+<tr>>
 <td>
+<p>1</p>
+<span class="date label label-default">Jul 13, 2018</span>
 </td>
-<td>Human Performance
-<p class="institution">Stanford University</p>
-<a href="http://arxiv.org/abs/1606.05250">(Rajpurkar & Jia et al. '18)</a>
+<td style="word-break:break-word;">VS^3-NET (single model)
+<p class="institution">Kangwon National University in South Korea</p>
 </td>
-<td>86.831<br>
+<td>
+<b>68.438</b>
+<br>
 <table>
 <tr>
 <th>
@@ -31,34 +34,7 @@ IWSLT
 123
 </td>
 </tr>
-
 </table>
-</td>
-</tr>
-<tr>
-<td> 
-<p>1</p>
-<span class="date label label-default">Jul 13, 2018</span>
-</td>
-<td style="word-break:break-word;">VS^3-NET (single model)
-<p class="institution">Kangwon National University in South Korea</p>
-</td>
-<td>
-<b>68.438</b>
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td> 
-<p>2</p>
-<span class="date label label-default">Jun 25, 2018</span>
-</td>
-<td style="word-break:break-word;">KACTEIL-MRC(GFN-Net) (single model)
-<p class="institution">Kangwon National University, Natural Language Processing Lab.</p>
-</td>
-<td>68.224</td>
-</tr>
 </table>
 
 
