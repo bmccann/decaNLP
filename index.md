@@ -123,12 +123,6 @@ For those two tasks, inference on the test sets must be obtained through their s
 Additionally, for WikiSQL, inference on the test set can be performed in the decaNLP code, 
 but the official evaluation system at github.com/salesforce/WikiSQL should be used for the testing metric.
 
-### How can I work more closely with Salesforce Research on decaNLP?
-For discussion or collaboration, please reach out to 
-[Bryan McCann](https://bmccann.github.io/) ([bmccann@salesforce.com](mailto:bmccann@salesforce.com)) and [Nitish Shirish Keskar](https://keskarnitish.github.io/) ([nkeskar@salesforce.com](mailto:nkeskar@salesforce.com))
-We are also hiring for full time research scientists, research engineers, and research interns. 
-For see our <a href="https://einstein.ai/careers">careers</a> page for more information.
-
 # Open Questions
 <hr>
 
@@ -175,7 +169,7 @@ The original decaNLP paper focuses on showing the potential of learning many com
 and experiments demonstrated that models trained on decaNLP were better at learning new tasks.
 How does multitask learning change the kinds of representations the model learns internally?
 
-### Work with us
+# Work with us
 For discussion or collaboration, please reach out to 
 [Bryan McCann](https://bmccann.github.io/) ([bmccann@salesforce.com](mailto:bmccann@salesforce.com)) and [Nitish Shirish Keskar](https://keskarnitish.github.io/) ([nkeskar@salesforce.com](mailto:nkeskar@salesforce.com))
 We are also hiring for full time research scientists, research engineers, and research interns. 
