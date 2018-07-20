@@ -81,6 +81,11 @@ We hope that this is useful to the community of researchers that choose to work 
 but it is not necessary to use our code base.
 Feel free to use it as little or as much as you would like.
 
+### What do I need to know about licensing?
+Our code for running decaNLP has been open sourced under BSD-3-Clause.
+We chose to restrict decaNLP to datasets that were free and publicly accessible for research,
+but you should check their individual terms if you deviate from this use case.
+
 ### Do I have to treat everything as question answering?
 We chose to treat everything as question anwering in our approach to decaNLP.
 This choice comes with a set of tradeoffs,
@@ -122,6 +127,13 @@ both of which have private, held-out test sets.
 For those two tasks, inference on the test sets must be obtained through their systems, which will provide testing metrics.
 Additionally, for WikiSQL, inference on the test set can be performed in the decaNLP code, 
 but the official evaluation system at github.com/salesforce/WikiSQL should be used for the testing metric.
+
+### How can I work more closely with Salesforce Research?
+For discussion or collaboration, please reach out to 
+[Bryan McCann](https://bmccann.github.io/) ([bmccann@salesforce.com](mailto:bmccann@salesforce.com)) and [Nitish Shirish Keskar](https://keskarnitish.github.io/) ([nkeskar@salesforce.com](mailto:nkeskar@salesforce.com)).
+We are also hiring for full time research scientists, research engineers, and research interns. 
+See our <a href="https://einstein.ai/careers">careers</a> page for more information.
+
 
 # Open Questions
 <hr>
@@ -168,12 +180,6 @@ but we found this robustness lacking.
 The original decaNLP paper focuses on showing the potential of learning many complex tasks in a single model,
 and experiments demonstrated that models trained on decaNLP were better at learning new tasks.
 How does multitask learning change the kinds of representations the model learns internally?
-
-# Work with us
-For discussion or collaboration, please reach out to 
-[Bryan McCann](https://bmccann.github.io/) ([bmccann@salesforce.com](mailto:bmccann@salesforce.com)) and [Nitish Shirish Keskar](https://keskarnitish.github.io/) ([nkeskar@salesforce.com](mailto:nkeskar@salesforce.com)).
-We are also hiring for full time research scientists, research engineers, and research interns. 
-See our <a href="https://einstein.ai/careers">careers</a> page for more information.
 
 # Citation
 <hr>

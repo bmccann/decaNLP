@@ -25,6 +25,10 @@
   padding: 2rem 1rem;
 }
 
+body {
+    color: #24292ee6;
+}
+
 .main-content {
   h1,
   h2,
@@ -34,7 +38,7 @@
   h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: normal;
+    font-weight: bold;
     color: #974b94;
   }
 }
