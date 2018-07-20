@@ -79,7 +79,7 @@ As an example of commonsense pronoun resolution, models are required to answer q
 We have released all the code necessary to reproduce the main experiments from the paper.
 We hope that this is useful to the community of researchers that choose to work on decaNLP, 
 but it is not necessary to use our code base.
-Feel free to use it as little or as much as possible.
+Feel free to use it as little or as much as you would like.
 
 ### Do I have to treat everything as question answering?
 We chose to treat everything as question anwering in our approach to decaNLP.
