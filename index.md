@@ -129,7 +129,7 @@ For discussion or collaboration, please reach out to
 We are also hiring for full time research scientists, research engineers, and research interns. 
 For see our <a href="https://einstein.ai/careers">careers</a> page for more information.
 
-# Open Research Questions
+# Open Questions
 <hr>
 
 ### Augmenting decaNLP with additional tasks
