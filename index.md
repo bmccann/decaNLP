@@ -113,7 +113,7 @@ We want to get as much feedback from the community as possible to inform the ine
 and we strongly encourage your involvement in our future work on multitask learning for NLP.
 
 ### Where should I ask questions about the code?
-github.com/salesforce/decaNLP
+Check out <a href="github.com/salesforce/decaNLP">github.com/salesforce/decaNLP</a> and post an issue if you're question is not answered in the README or previous issues.
 
 ### How do I evaluate on decaNLP?
 Training and validation can all be completed using our code at github.com/salesforce/decaNLP,
