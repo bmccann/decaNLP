@@ -2,21 +2,39 @@
 <hr>
 
 <table class='performanceTable'>
+
 <tr><th>Rank</th><th>Model</th><th>decaScore</th><th>Breakdown by Task</th></tr>
+
 <tr>
-<td><p>1</p><span class="date label label-default">Jul 13, 2018</span></td>
-<td style="word-break:break-word;">VS^3-NET (single model) <p class="institution">Kangwon National University in South Korea</p> </td>
-<td><b>68.438</b></td>
+<td><p>1</p><span class="date label label-default">May 18, 2018</span></td>
+<td style="word-break:break-word;">MQAN <p class="institution">Salesforce Research</p> </td>
+<td><b>571.7</b></td>
 <td>
 <table>
-<tr><th>SQuAD</th><th>IWSLT</th><th>IWSLT</th><th>IWSLT</th></tr>
-<tr><th>SQuAD</th><th>IWSLT</th><th>IWSLT</th><th>IWSLT</th></tr>
-<tr><th>SQuAD</th><th>IWSLT</th><th>IWSLT</th><th>IWSLT</th></tr>
-<tr><th>SQuAD</th><th>IWSLT</th><th>IWSLT</th><th>IWSLT</th></tr>
-<tr><th>SQuAD</th><th>IWSLT</th><th>IWSLT</th><th>IWSLT</th></tr>
+<tr><th>SQuAD</th><th>74.3</th><th>QA-SRL</th><th>77.6</th></tr>
+<tr><th>IWSLT</th><th>13.7</th><th>QA-ZRE</th><th>34.7</th></tr>
+<tr><th>CNN/DM</th><th>24.6</th><th>WOZ</th><th>84.1</th></tr>
+<tr><th>MNLI</th><th>69.2</th><th>WikiSQL</th><th>58.7</th></tr>
+<tr><th>SST</th><th>86.4</th><th>MWSC</th><th>48.4</th></tr>
 </table>
 </td>
 </tr>
+
+<tr>
+<td><p>2</p><span class="date label label-default">May 18, 2018</span></td>
+<td style="word-break:break-word;">Sequence-to-sequence baseline <p class="institution">Salesforce Research</p> </td>
+<td><b>513.6</b></td>
+<td>
+<table>
+<tr><th>SQuAD</th><th>47.5</th><th>QA-SRL</th><th>68.7</th></tr>
+<tr><th>IWSLT</th><th>14.2</th><th>QA-ZRE</th><th>28.5</th></tr>
+<tr><th>CNN/DM</th><th>25.7</th><th>WOZ</th><th>84.0</th></tr>
+<tr><th>MNLI</th><th>60.9</th><th>WikiSQL</th><th>45.8</th></tr>
+<tr><th>SST</th><th>85.9</th><th>MWSC</th><th>52.4</th></tr>
+</table>
+</td>
+</tr>
+
 </table>
 
 
