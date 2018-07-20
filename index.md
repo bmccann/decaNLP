@@ -43,7 +43,7 @@
 The Natural Language Decathlon is a multitask challenge that spans ten tasks:
 
 ### Question Answering
-Question answering (QA) models receive a question and a context that contains information necessary to output the desired answer. decaNLP uses the <a href="https://rajpurkar.github.io/SQuAD-explorer/">Stanford Question Answering Dataset (SQuAD 1.0)</a> as the dataset for this task.
+Question answering (QA) models receive a question and a context that contains information necessary to output the desired answer. decaNLP uses the <a href="https://rajpurkar.github.io/SQuAD-explorer/">Stanford Question Answering Dataset (SQuAD 1.1)</a> as the dataset for this task.
 ### Machine Translation 
 Machine translation models receive an input document in a source language that must be translated into a target language. decaNLP uses the 2016 English to German training data prepared for the <a href="https://wit3.fbk.eu/mt.php?release=2016-01">International Workshop on Spoken Language Translation (IWSLT)</a>, and we use the 2013 and 2014 test sets for our own validation and test sets, respectively. 
 
