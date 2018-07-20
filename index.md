@@ -1,6 +1,6 @@
 # Leaderboard
 
-<table>
+<table class='performanceTable'>
 <tr>
 <th>Rank</th>
 <th>Model</th>
@@ -11,7 +11,7 @@
 <td>
 </td>
 <td>Human Performance
-<p class="institution">*Stanford University*</p>
+<p class="institution">Stanford University</p>
 <a href="http://arxiv.org/abs/1606.05250">(Rajpurkar & Jia et al. '18)</a>
 </td>
 <td>86.831</td>
