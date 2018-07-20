@@ -2,10 +2,10 @@
 
 
 | Rank | Model | decaScore | Breakdown by Task |
-| 1 | [MQAN](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf) | 571.7 | SQuAD | IWSLT | CNN/DM | MNLI | SST  | 
-|   | Salesforce Research                                                                  |  74.3 | 13.7  | 24.6   | 69.2 | 86.4 |
-|   | [McCann et al. 2018](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf) | QA&#8209;SRL | QA&#8209;ZRE | WOZ  | WikiSQL | MWSC    |
-|   | May 18, 2018                                                                               | 77.6         | 34.7         | 84.1 |    58.7 | 48.4    |
+| 1    | [MQAN](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf) | 571.7 | SQuAD | IWSLT | CNN/DM | MNLI | SST  | 
+|      | Salesforce Research                                                          |       |  74.3 | 13.7  | 24.6   | 69.2 | 86.4 |
+|      | [McCann et al. 2018](https://einstein.ai/static/images/pages/research/decaNLP/decaNLP.pdf) || QA&#8209;SRL | QA&#8209;ZRE | WOZ  | WikiSQL | MWSC    |
+|      | May 18, 2018                                                                               || 77.6         | 34.7         | 84.1 |    58.7 | 48.4    |
 
 
 # Tasks
