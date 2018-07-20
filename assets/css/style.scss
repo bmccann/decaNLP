@@ -7,7 +7,7 @@
   margin-top: 0;
   margin-bottom: -3rem;
   font-size: 5.25rem;
-  opacity: 0.9;
+  opacity: 1.0;
 }
 
 .project-tagline {
@@ -25,6 +25,7 @@
   padding: 2rem 1rem;
 }
 
+.main-content {
   h1,
   h2,
   h3,
@@ -36,3 +37,4 @@
     font-weight: normal;
     color: #974b94;
   }
+}
