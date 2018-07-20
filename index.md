@@ -1,4 +1,5 @@
 # Leaderboard
+<hr>
 
 <table class='performanceTable'>
 <tr><th>Rank</th><th>Model</th><th>decaScore</th><th>Breakdown by Task</th></tr>
@@ -17,9 +18,9 @@
 </tr>
 </table>
 
-<hr>
 
 # Tasks
+<hr>
 The Natural Language Decathlon is a multitask challenge that spans ten tasks:
 
 ### Question Answering
@@ -53,6 +54,7 @@ As an example of commonsense pronoun resolution, models are required to answer q
 
 
 # FAQ
+<hr>
 
 ### Do I have to use your code?
 We have released all the code necessary to reproduce the main experiments from the paper.
@@ -109,6 +111,7 @@ We are also hiring for full time research scientists, research engineers, and re
 For see our <a href="https://einstein.ai/careers">careers</a> page for more information.
 
 # Open Research Questions
+<hr>
 
 ### Augmenting decaNLP with additional tasks
 There are a large number of NLP tasks and datasets that are not included in decaNLP.
