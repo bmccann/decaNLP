@@ -88,7 +88,7 @@ but it can be considered independent of decaNLP itself.
 We encourage exploration of alternative paradigms that allow training a single system on decaNLP,
 e.g. language modeling or dialogue.
 Our thought process suggested that dialogue could be considered an iterative question answering process,
-and in early experiments language modeling did not seem as promising as quesiton asnwering.
+and in early experiments language modeling did not seem as promising as question asnwering.
 
 ### What exactly do you mean by a single system?
 In our work, we use what we consider to be a fully unified model with all parameters trained on all tasks jointly.
