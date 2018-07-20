@@ -8,6 +8,54 @@
 |      | May 18, 2018                                                                               || 77.6         | 34.7         | 84.1 |    58.7 | 48.4    |
 
 
+
+<table>
+<tr>
+<th>Rank</th>
+<th>Model</th>
+<th>EM</th>
+<th>F1</th>
+</tr>
+<tr class="human-row">
+<td>
+</td>
+<td>Human Performance
+<p class="institution">Stanford University</p>
+<a href="http://arxiv.org/abs/1606.05250">(Rajpurkar & Jia et al. '18)</a>
+</td>
+<td>86.831</td>
+<td>89.452</td>
+</tr>
+<tr>
+<td> 
+<p>1</p>
+<span class="date label label-default">Jul 13, 2018</span>
+</td>
+<td style="word-break:break-word;">VS^3-NET (single model)
+<p class="institution">Kangwon National University in South Korea</p>
+</td>
+<td>
+<b>68.438</b>
+</td>
+<td>
+<b>71.282</b>
+</td>
+</tr>
+<tr>
+<td> 
+<p>2</p>
+<span class="date label label-default">Jun 25, 2018</span>
+</td>
+<td style="word-break:break-word;">KACTEIL-MRC(GFN-Net) (single model)
+<p class="institution">Kangwon National University, Natural Language Processing Lab.</p>
+</td>
+<td>68.224</td>
+<td>70.871</td>
+</tr>
+<tr>
+</table>
+
+
 # Tasks
 The Natural Language Decathlon is a multitask challenge that spans ten tasks:
 
