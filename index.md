@@ -176,7 +176,7 @@ Ideally, a single model for NLP would also be robust to semantically equivalent 
 Our first approach was robust to minor variations in the kinds of questions that could be asked,
 but we found this robustness lacking.
 
-### Analysis of multitask representations compared with single task representations
+### Analysis of multitask representations
 The original decaNLP paper focuses on showing the potential of learning many complex tasks in a single model,
 and experiments demonstrated that models trained on decaNLP were better at learning new tasks.
 How does multitask learning change the kinds of representations the model learns internally?
