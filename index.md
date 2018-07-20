@@ -197,4 +197,4 @@ If you use this in your work, please cite [*The Natural Language Decathlon: Mult
 # Contact
 <hr>
 
-Contact:[Bryan McCann](https://bmccann.github.io/) ([bmccann@salesforce.com](mailto:bmccann@salesforce.com)) and [Nitish Shirish Keskar](https://keskarnitish.github.io/) ([nkeskar@salesforce.com](mailto:nkeskar@salesforce.com))
+Contact: [Bryan McCann](https://bmccann.github.io/) ([bmccann@salesforce.com](mailto:bmccann@salesforce.com)) and [Nitish Shirish Keskar](https://keskarnitish.github.io/) ([nkeskar@salesforce.com](mailto:nkeskar@salesforce.com))
