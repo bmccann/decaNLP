@@ -165,7 +165,7 @@ Ideally, this would not require running an NMT system first before running a que
 A truly multilingual model would be able to capitalize on its understanding of many languages to perform tasks in multiple language despite having only trained on that task in a single language.
 
 ### Scaling decaNLP
-Efficient training, scaling to larger datasets, larger models.
+How can we adapt the training strategies and sampling procedures to scale decaNLP to larger (and more) datasets and also larger models? The viability of scaling strategies employed in single-task cases, such as large-batch training, asynchronous training, and delayed updates, remains to be shown for decaNLP.
 
 ### Robustness to paraphrasing
 In the original formulation of decaNLP as question answering, some tasks used fixed questions like 'What is the summary?'. 
