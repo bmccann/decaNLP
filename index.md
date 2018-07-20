@@ -6,7 +6,14 @@
 <td><p>1</p><span class="date label label-default">Jul 13, 2018</span></td>
 <td style="word-break:break-word;">VS^3-NET (single model) <p class="institution">Kangwon National University in South Korea</p> </td>
 <td><b>68.438</b></td>
-<td><table><tr><th>SQuAD</th><th>IWSLT</th></tr><tr><td>123</td><td>123</td></tr></table></td>
+<td>
+<table>
+<tr><th>SQuAD</th><th>IWSLT</th><th>IWSLT</th><th>IWSLT</th><th>IWSLT</th></tr>
+<tr><th>SQuAD</th><th>IWSLT</th><th>IWSLT</th><th>IWSLT</th><th>IWSLT</th></tr>
+<tr><th>SQuAD</th><th>IWSLT</th><th>IWSLT</th><th>IWSLT</th><th>IWSLT</th></tr>
+<tr><th>SQuAD</th><th>IWSLT</th><th>IWSLT</th><th>IWSLT</th><th>IWSLT</th></tr>
+</table>
+</td>
 </tr>
 </table>
 
