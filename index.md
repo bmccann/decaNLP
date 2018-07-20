@@ -8,7 +8,7 @@
 <tr>
 <td><p>1</p><span class="date label label-default">May 18, 2018</span></td>
 <td style="word-break:break-word;">MQAN <p class="institution">Salesforce Research</p> </td>
-<td><b>571.7</b></td>
+<td>571.7</td>
 <td>
 <table>
 <tr><th>SQuAD </th><td>74.3</td><th>QA-SRL </th><td>77.6</td></tr>
@@ -23,7 +23,7 @@
 <tr>
 <td><p>2</p><span class="date label label-default">May 18, 2018</span></td>
 <td style="word-break:break-word;">Sequence-to-sequence baseline <p class="institution">Salesforce Research</p> </td>
-<td><b>513.6</b></td>
+<td>513.6</td>
 <td>
 <table>
 <tr><th>SQuAD </th><td>47.5</td><th>QA-SRL </th><td>68.7</td></tr>
